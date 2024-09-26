@@ -45,3 +45,7 @@ margin: 0 auto;
 }
 
 You can find the project at GitHub:
+
+git@github.com:goofyfather/se_project_aroundtheus.git
+
+Enjoy.
