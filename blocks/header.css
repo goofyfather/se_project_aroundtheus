@@ -1,5 +1,17 @@
 .header {
   margin-top: 45px;
-  border-bottom: 1px;
-  border-bottom-color: #545454;
+  border-bottom: 1px solid #545454;
+  padding-bottom: 41px;
+}
+
+@media screen and (max-width: 350px) {
+  .header img {
+    display: none;
+  }
+
+  .header {
+    background-image: url(../images/Header\ phone\ size.png);
+    background-size: cover;
+    background-position: center;
+  }
 }

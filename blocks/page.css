@@ -1,19 +1,42 @@
 .page {
-  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   background-color: black;
   color: white;
-}
-
-.page__section {
-  max-width: 880px;
-  width: 100%;
-  position: relative;
-  margin: 0 auto;
-  padding-left: 60px;
-  padding-right: 60px;
 }
 
 .page__content {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+}
+
+.page__section {
+  width: 100%;
+  max-width: 905px;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 1280) {
+  .page__section {
+    margin: 0 200px;
+    max-width: calc(100% - 40px);
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .page__section {
+    margin: 0 auto;
+    max-width: calc(100% - 40px);
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .page__section {
+    margin: 36px auto 0;
+    max-width: calc(100% - 20px);
+  }
 }
