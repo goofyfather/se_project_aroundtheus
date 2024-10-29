@@ -4,6 +4,24 @@
   font-size: 18px;
   line-height: 1.2;
   font-weight: 400;
-  padding-top: 67px;
-  padding-bottom: 60px;
+}
+
+.footer__text {
+  width: 318px;
+  height: 18px;
+  margin-top: 67px;
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 350px) {
+  .footer {
+    font-size: 14px;
+  }
+
+  .footer__text {
+    width: 282px;
+    height: 14px;
+    margin-top: 48px;
+    margin-bottom: 36px;
+  }
 }

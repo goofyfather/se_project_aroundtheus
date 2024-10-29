@@ -10,10 +10,14 @@
   <body class="page">
     <div class="page__content">
       <header class="header page__section">
-        <img src=".//images/Header large.png" alt="around the us" />
+        <img
+          src=".//images/Header.svg"
+          alt="around the us"
+          class="header__image"
+        />
       </header>
 
-      <main class="content">
+      <main>
         <section class="profile page__section">
           <img
             src="./images/Avatar.jpg"
@@ -26,20 +30,7 @@
             <p class="profile__description">Explorer</p>
           </div>
 
-          <button type="button" class="profile__add-button">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M16 7.11111H8.88889V0H7.11111V7.11111H0V8.88889H7.11111V16H8.88889V8.88889H16V7.11111Z"
-                fill="white"
-              />
-            </svg>
-          </button>
+          <button type="button" class="profile__add-button"></button>
         </section>
         <section class="cards page__section">
           <ul class="card__list">
@@ -109,7 +100,7 @@
         </section>
       </main>
       <footer class="footer page__section">
-        <p>&copy; 2024 Around The U.S.</p>
+        <p class="footer__text">&copy; 2024 Around The U.S.</p>
       </footer>
     </div>
   </body>
