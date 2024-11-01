@@ -44,8 +44,12 @@ flex-direction: column;
 margin: 0 auto;
 }
 
-You can find the project at GitHub:
+You can find the project at:
 
-git@github.com:goofyfather/se_project_aroundtheus.git
+https://goofyfather.github.io/se_project_aroundtheus/
+
+You can find the video descrition of the project at:
+
+https://www.loom.com/share/8dc66639ce5b4fc6a36820b8d0fd9aa7?sid=504bd795-19bf-43d9-b42b-2e85aa38f780
 
 Enjoy.
